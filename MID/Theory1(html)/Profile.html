@@ -1,96 +1,98 @@
-<!DOCTYPE html> 
- 
-<html lang="en-US"> 
- 
-    <head> 
-        <meta charset="UTF-8"> 
-        <title> Personal Profile </title> 
-    </head> 
- 
-    <body> 
- 
-        <img src="ProfileImage.jpg" width="100px" height="100px" style="border-radius: 50%; object-fit: cover; object-position: top;"> 
- 
-        <h1> Personal Profile </h1> 
-        
-        <form>
 
-        <fieldset> 
- 
-            <legend> Personal Information </legend> 
- 
-            <table> 
- 
-                <tr> 
-                    <td> <label for="Name"> Name : </label> </td> 
-                    <td> <input type="text" name="Name" id="Name" value="Soaibur Rahman Soaib"> </td> 
-                </tr> 
- 
-                <tr> 
-                    <td> <label for="StudentID"> Student ID : </label> </td> 
-                    <td> <input type="text" name="StudentID" id="StudentID" value="24-56085-1"> </td> 
-                </tr> 
- 
-                <tr> 
-                    <td> <label for="CGPA"> CGPA : </label> </td> 
-                    <td> <input type="text" name="CGPA" id="CGPA" value="5.0"> </td> 
-                </tr> 
- 
-                <tr> 
-                    <td> <label for="DOB"> DOB : </label> </td> 
-                    <td> <input type="text" name="DOB" id="DOB" value="27/06/2002"> </td> 
-                </tr> 
- 
-                <tr> 
-                    <td> <label for="Gender"> Gender : </label> </td> 
-                    <td> 
-                        <input type="radio" name="gender" id="Male" checked> Male 
-                        <input type="radio" name="gender" id="Female"> Female 
-                    </td> 
-                </tr> 
- 
-            </table> 
- 
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Profile</title>
+</head>
+
+<body>
+    <img src="ProfileImage.jpg"
+         alt="Profile Picture"
+         width="120px"
+         height="120px"
+         style="border-radius: 70%; object-fit: cover;">
+
+    <br><br>
+
+    <form>
+
+        <fieldset>
+            <legend>Personal Info</legend>
+
+            <table>
+
+                <tr>
+                    <td><label for="name">Name :</label></td>
+                    <td><input type="text" id="name" name="name"value="Swachchho"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="studentID">Student ID :</label></td>
+                    <td><input type="text" id="studentID" name="studentID" value="24-56128-1"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="cgpa">CGPA :</label></td>
+                    <td><input type="text" id="cgpa" name="cgpa" value="3.5"></td>
+                </tr>
+
+                <tr>
+                   <td><label for="dob">Date of Birth :</label></td>
+                   <td><input type="date" id="dob" name="dob"></td>
+                </tr>
+
+                <tr>
+                    <td>Gender :</td>
+                    <td>
+                        <input type="radio" id="male"
+                               name="gender" value="male" checked>
+                        <label for="male">Male</label>
+
+                        <input type="radio" id="female"
+                               name="gender" value="female">
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+
+            </table>
+
         </fieldset>
-        
-        </form>
- 
-        <br> 
- 
-        <fieldset> 
- 
-            <legend> Education </legend> 
- 
-            <table style="border-collapse: collapse;"> 
- 
-                <tr> 
-                    <th style="border: 1px solid black; padding: 5px;"> Program </th> 
-                    <th style="border: 1px solid black; padding: 5px;"> Dept </th> 
-                    <th style="border: 1px solid black; padding: 5px;"> Year </th> 
-                </tr> 
- 
-                <tr> 
-                    <td style="border: 1px solid black; padding: 5px;"> SSC </td> 
-                    <td style="border: 1px solid black; padding: 5px;"> Science </td> 
-                    <td style="border: 1px solid black; padding: 5px;"> 2020 </td> 
-                </tr> 
- 
-                <tr> 
-                    <td style="border: 1px solid black; padding: 5px;"> HSC </td> 
-                    <td style="border: 1px solid black; padding: 5px;"> Science </td> 
-                    <td style="border: 1px solid black; padding: 5px;"> 2022 </td> 
-                </tr> 
- 
-                <tr> 
-                    <td style="border: 1px solid black; padding: 5px;"> BSC </td> 
-                    <td style="border: 1px solid black; padding: 5px;"> CSE </td> 
-                    <td style="border: 1px solid black; padding: 5px;"> Ongoing </td> 
-                </tr> 
- 
-            </table> 
- 
-        </fieldset> 
- 
-    </body> 
- 
+
+    </form>
+
+    <br>
+
+    <h2>Education</h2>
+
+    <table style="border-collapse: collapse;">
+
+        <tr>
+            <th style="border: 1px solid black; padding: 8px;">Program</th>
+            <th style="border: 1px solid black; padding: 8px;">Major</th>
+            <th style="border: 1px solid black; padding: 8px;">Year</th>
+        </tr>
+
+        <tr>
+            <td style="border: 1px solid black; padding: 8px;">SSC</td>
+            <td style="border: 1px solid black; padding: 8px;">Science</td>
+            <td style="border: 1px solid black; padding: 8px;">2020</td>
+        </tr>
+
+        <tr>
+            <td style="border: 1px solid black; padding: 8px;">HSC</td>
+            <td style="border: 1px solid black; padding: 8px;">Science</td>
+            <td style="border: 1px solid black; padding: 8px;">2022</td>
+        </tr>
+
+        <tr>
+            <td style="border: 1px solid black; padding: 8px;">BSC</td>
+            <td style="border: 1px solid black; padding: 8px;">CSE</td>
+            <td style="border: 1px solid black; padding: 8px;">Ongoing</td>
+        </tr>
+
+    </table>
+
+</body>
 </html>
